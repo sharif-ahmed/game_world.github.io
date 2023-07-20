@@ -73,6 +73,20 @@
 
     /* RELESASE GAME SECTION CSS END*/
 
+    .feature-wrapper {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .feature{
+        flex-direction: column;
+    }
+
+    .centered {
+        grid-row: span 1;
+        grid-column: span 1;
+        width: 100%;
+    }
+
 }
 
 /* Tablet Device */
@@ -134,5 +148,19 @@
         font-size: 20px;
     }
     /* RELESASE GAME SECTION CSS END*/
+
+    .feature-wrapper {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .feature{
+        flex-direction: column;
+    }
+
+    .centered {
+        grid-row: span 1;
+        grid-column: span 1;
+        width: 100%;
+    }
 
 }
