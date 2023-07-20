@@ -118,15 +118,18 @@
     .our-sponsor-section {
         padding: 50px 0;
     }
-    
+
     .sponsor-wrapper {
         flex-direction: column;
-        row-gap: 30px;
+        row-gap: 60px;
     }
+
     /* OUR SPONSOR CSS END*/
 
-
-
+    .footer-wrapper p {
+        font-size: 16px;
+        line-height: 24px;
+    }
 }
 
 /* Tablet Device */
@@ -223,15 +226,20 @@
 
     /* CREATE TOURNAMENT CSS END*/
     /* OUR SPONSOR CSS START*/
-        
-        .our-sponsor-section {
-            padding: 50px 0;
-        }
-        
-        .sponsor-wrapper {
-            gap: 30px;
-            row-gap: 30px;
-        }
-        
+
+    .our-sponsor-section {
+        padding: 50px 0;
+    }
+
+    .sponsor-wrapper {
+        gap: 30px;
+        row-gap: 30px;
+    }
+
     /* OUR SPONSOR CSS END*/
+
+    .footer-wrapper p {
+        font-size: 16px;
+        line-height: 24px;
+    }
 }
