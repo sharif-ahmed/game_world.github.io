@@ -2,8 +2,9 @@
 @media screen and (max-width:576px) {
 
     /* HEADER SECTION CSS */
+    
     .header-section {
-        background-image: none;
+        padding-bottom: 30px;
     }
 
     .nav-bar-wrapper {
@@ -46,6 +47,32 @@
     }
     /* HEADER SECTION CSS END*/
 
+    /* RELESASE GAME SECTION CSS */
+
+    .release-game-section {
+        padding: 40px 0;
+    }
+    
+    .section-title {
+        font-size: 35px;
+    }
+    
+    .section-description {
+        font-size: 16px;
+        margin: 20px 0;
+        padding: 0 10px;
+    }
+
+    .game-cards-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .game-card-text p {
+        font-size: 20px;
+    }
+
+    /* RELESASE GAME SECTION CSS END*/
+
 }
 
 /* Tablet Device */
@@ -53,7 +80,7 @@
 
     /* HEADER SECTION CSS */
     .header-section {
-        background-image: none;
+        padding-bottom: 30px;
     }
 
     .nav-bar-wrapper {
@@ -82,5 +109,30 @@
 
    
     /* HEADER SECTION CSS END*/
+
+    /* RELESASE GAME SECTION CSS */
+
+    .release-game-section {
+        padding: 40px 0;
+    }
+    
+    .section-title {
+        font-size: 35px;
+    }
+    
+    .section-description {
+        font-size: 16px;
+        margin: 20px 0;
+        padding: 0 10px;
+    }
+
+    .game-cards-wrapper {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .game-card-text p {
+        font-size: 20px;
+    }
+    /* RELESASE GAME SECTION CSS END*/
 
 }
