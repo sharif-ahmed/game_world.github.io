@@ -241,7 +241,7 @@ body {
     margin-top: 80px;
 }
 
-.feature  {
+.feature {
     display: flex;
     gap: 32px;
     border-radius: 8px;
@@ -275,3 +275,36 @@ body {
     margin-top: 10px;
 }
 
+/* CREATE TOURNAMENT SECTION CSS */
+.create-tournament-section {
+    background-image: linear-gradient(90deg, #050818 0%, rgba(5, 8, 24, 0.00) 100%), url("../img/rectangle_27.png");
+    background-repeat: no-repeat;
+    padding: 130px 0;
+}
+
+.tournament-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.tournament-content {
+    width: 740px;
+}
+
+.tournament-content h2 {
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.tournament-content p {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    padding-right: 130px;
+}
+
+/* CREATE TOURNAMENT SECTION CSS END*/

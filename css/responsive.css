@@ -2,7 +2,7 @@
 @media screen and (max-width:576px) {
 
     /* HEADER SECTION CSS */
-    
+
     .header-section {
         padding-bottom: 30px;
     }
@@ -45,6 +45,7 @@
         margin-right: 0;
         margin-bottom: 20px;
     }
+
     /* HEADER SECTION CSS END*/
 
     /* RELESASE GAME SECTION CSS */
@@ -52,11 +53,11 @@
     .release-game-section {
         padding: 40px 0;
     }
-    
+
     .section-title {
         font-size: 35px;
     }
-    
+
     .section-description {
         font-size: 16px;
         margin: 20px 0;
@@ -74,10 +75,10 @@
     /* RELESASE GAME SECTION CSS END*/
 
     .feature-wrapper {
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
-    .feature{
+    .feature {
         flex-direction: column;
     }
 
@@ -86,6 +87,33 @@
         grid-column: span 1;
         width: 100%;
     }
+
+    /* CREATE TOURNAMENT SECTION CSS */
+
+
+    .tournament-wrapper {
+        flex-direction: column;
+    }
+
+
+    .tournament-content {
+        width: 100%;
+        text-align: center;
+        margin-top: 45px;
+        margin-bottom: 30px;
+    }
+
+    .tournament-content h2 {
+        font-size: 40px;
+    }
+
+    .tournament-content p {
+        font-size: 14px;
+        line-height: 23px;
+        padding-right: 0;
+    }
+
+    /* CREATE TOURNAMENT CSS END*/
 
 }
 
@@ -121,7 +149,7 @@
         padding-right: 0;
     }
 
-   
+
     /* HEADER SECTION CSS END*/
 
     /* RELESASE GAME SECTION CSS */
@@ -129,11 +157,11 @@
     .release-game-section {
         padding: 40px 0;
     }
-    
+
     .section-title {
         font-size: 35px;
     }
-    
+
     .section-description {
         font-size: 16px;
         margin: 20px 0;
@@ -141,19 +169,20 @@
     }
 
     .game-cards-wrapper {
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .game-card-text p {
         font-size: 20px;
     }
+
     /* RELESASE GAME SECTION CSS END*/
 
     .feature-wrapper {
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
-    .feature{
+    .feature {
         flex-direction: column;
     }
 
@@ -163,4 +192,22 @@
         width: 100%;
     }
 
+    /* CREATE TOURNAMENT CSS */
+
+    .tournament-wrapper {
+        flex-direction: column;
+    }
+
+    .tournament-content {
+        width: 100%;
+        text-align: center;
+        margin-top: 45px;
+        margin-bottom: 30px;
+    }
+
+    .tournament-content p {
+        padding-right: 0;
+    }
+
+    /* CREATE TOURNAMENT CSS END*/
 }
