@@ -308,3 +308,21 @@ body {
 }
 
 /* CREATE TOURNAMENT SECTION CSS END*/
+/* OUR SPONSOR SECTION CSS START*/
+.our-sponsor-section {
+    padding: 130px 0;
+}
+
+.sponsor-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.sponsor-wrapper img {
+    width: 152px;
+    height: 50px;
+}
+/* OUR SPONSOR SECTION CSS END*/

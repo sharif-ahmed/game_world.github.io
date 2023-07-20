@@ -114,6 +114,18 @@
     }
 
     /* CREATE TOURNAMENT CSS END*/
+    /* OUR SPONSOR CSS START*/
+    .our-sponsor-section {
+        padding: 50px 0;
+    }
+    
+    .sponsor-wrapper {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    /* OUR SPONSOR CSS END*/
+
+
 
 }
 
@@ -210,4 +222,16 @@
     }
 
     /* CREATE TOURNAMENT CSS END*/
+    /* OUR SPONSOR CSS START*/
+        
+        .our-sponsor-section {
+            padding: 50px 0;
+        }
+        
+        .sponsor-wrapper {
+            gap: 30px;
+            row-gap: 30px;
+        }
+        
+    /* OUR SPONSOR CSS END*/
 }
