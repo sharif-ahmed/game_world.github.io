@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background: #050818;
+}
+
+.btn-primary {
+    color: #050818;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    border-radius: 8px;
+    display: inline-block;
+    background: #FFC536;
+    padding: 20px 30px;
+}
+
+.btn-secondary {
+    color: #FFC536;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    border-radius: 8px;
+    border: 1px solid #FFC536;
+    padding: 20px 30px;
+    display: inline-block;
+}
+
+.white-border-text {
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    color: #fff;
+}
+
+.yellow-text {
+    color: #FFC536;
+}
+
+.bg-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #050818 0%, rgba(5, 8, 24, 0.00) 100%);
+    /* z-index: 9; */
+}
+
+/* HEADER SECTION CSS */
+
+.header-section {
+    background-image: linear-gradient(90deg, #050818 0%, rgba(5, 8, 24, 0.00) 100%),url("../img/banner.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-bar {
+    background: rgba(5, 8, 24, 0.40);
+}
+
+.nav-bar-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+.menu {
+    display: flex;
+    gap: 32px;
+}
+
+.menu li a {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    display: inline-block;
+}
+
+.banner-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.banner-content {
+    width: 740px;
+    margin-top: 60px;
+}
+.banner-content h2 {
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 700;
+}
+.banner-content p {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    padding-right: 150px;
+
+}
+
+.banner-content .btn-primary{
+    margin-right: 20px;
+}
+
+/* HEADER SECTION CSS END */

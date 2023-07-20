@@ -1,0 +1,86 @@
+/* Mobile Device */
+@media screen and (max-width:576px) {
+
+    /* HEADER SECTION CSS */
+    .header-section {
+        background-image: none;
+    }
+
+    .nav-bar-wrapper {
+        margin-top: 16px;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+    }
+
+    .banner-wrapper {
+        flex-direction: column;
+    }
+
+
+    .banner-content {
+        width: 100%;
+        text-align: center;
+        margin-top: 45px;
+        margin-bottom: 30px;
+    }
+
+    .banner-content h2 {
+        font-size: 40px;
+    }
+
+    .banner-content p {
+        font-size: 14px;
+        line-height: 23px;
+        padding-right: 0;
+    }
+
+    .banner-content .btn-primary {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    /* HEADER SECTION CSS END*/
+
+}
+
+/* Tablet Device */
+@media screen and (min-width:577px) and (max-width:768px) {
+
+    /* HEADER SECTION CSS */
+    .header-section {
+        background-image: none;
+    }
+
+    .nav-bar-wrapper {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .menu {
+        margin: 20px 0;
+    }
+
+    .banner-wrapper {
+        flex-direction: column;
+    }
+
+    .banner-content {
+        width: 100%;
+        text-align: center;
+        margin-top: 45px;
+        margin-bottom: 30px;
+    }
+
+    .banner-content p {
+        padding-right: 0;
+    }
+
+   
+    /* HEADER SECTION CSS END*/
+
+}
